@@ -1,0 +1,22 @@
+
+$primary : #00003f;
+$secondary : #dcdcff;
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: $secondary;
+}
+.hover-link:hover{
+    color: $primary !important;
+}
+.btn-hover:hover{
+    background-color: rgba(0,0,60,0.8);
+    border-color: rgba(0,0,60,0.8);
+}
