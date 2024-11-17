@@ -19,13 +19,12 @@ Other extra features
 
 Algorithms
 . Laravel assessor for inventing fullname by retrieving (firstname + lastname ) attributes
-. Use DB::raw to use CONCAT() aggregation to concat firstname and lastname to query fullname to database when user searched by fullname
+. Use DB::raw to use CONCAT() aggregation to query fullname to database when user search by fullname
 
 What need to be integrated
 
-- 
--
--
+- can pass real user instance to send email to admin
+- need to modify create form input UI
 
 
 
