@@ -30,7 +30,8 @@
                                 </a>
                             </div>
                             @endif
-                            <form action="{{route('contacts.index')}}">
+                            <form action="{{route('contacts.index')}}" method="post">
+                                @csrf
                                 <div class="input-group">
                                     <input type="text" class="form-control" name="search">
                                     <button type="submit" class="input-group-text btn btn-primary">
